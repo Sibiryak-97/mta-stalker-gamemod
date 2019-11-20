@@ -1,0 +1,30 @@
+<ui_texture>
+    <file_name>ui/ui_icon_equipment</file_name>
+	
+    <texture id="wpn_ak74" x="0" y="200" width="250" height="100" />
+    <texture id="wpn_abakan" x="0" y="100" width="250" height="100" />
+    <texture id="wpn_svd" x="0" y="0" width="300" height="100" />
+    <texture id="wpn_pm" x="250" y="100" width="100" height="50" />
+    <texture id="wpn_knife" x="300" y="0" width="100" height="50" />
+    <texture id="wpn_spas12" x="0" y="300" width="250" height="50" />
+	
+    <texture id="ammo_7.62x54_7h1" x="300" y="50" width="100" height="50" />
+    <texture id="ammo_5.45x39_fmj" x="250" y="150" width="100" height="50" />
+    <texture id="ammo_12x70_buck" x="550" y="150" width="100" height="50" />
+    <texture id="ammo_9x18_fmj" x="350" y="100" width="50" height="50" />
+	
+    <texture id="mag_ak74" x="250" y="250" width="50" height="50" />
+    <texture id="mag_abakan" x="300" y="250" width="50" height="50" />
+    <texture id="mag_svd" x="350" y="250" width="50" height="50" />
+    <texture id="mag_pm" x="350" y="250" width="50" height="50" />
+	
+    <texture id="stalker_outfit" x="400" y="0" width="100" height="150" />
+    <texture id="dolg_outfit" x="500" y="0" width="100" height="150" />
+	
+    <texture id="bag_stalker" x="700" y="0" width="100" height="100" />
+	
+    <texture id="medkit" x="450" y="200" width="50" height="50" />
+    <texture id="energy_drink" x="700" y="150" width="50" height="50" />
+    <texture id="antirad" x="600" y="200" width="50" height="50" />
+
+</ui_texture>

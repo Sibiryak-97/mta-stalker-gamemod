@@ -1,0 +1,74 @@
+<textures>
+    <!--texture id="ui_frame_1">ui/ui_frame_1</texture-->
+    <texture id="ui_cursor">ui/ui_cursor</texture>
+    <texture id="ui_dialog_screen" x="0" y="0" w="640" h="768">ui/ui_dialog_screen</texture>
+	
+
+    <texture id="ui_listline" 	x="0" y="454" w="486" h="28" >ui/ui_common_final</texture>
+    <texture id="ui_listline2" 	x="0" y="483" w="486" h="28" >ui/ui_common_final</texture>
+	
+    <texture id="ui_fake_h" x="1" y="1" w="2" h="2" >ui/ui_common_final</texture>
+    <texture id="ui_fake_e" x="1" y="1" w="2" h="2" >ui/ui_common_final</texture>
+    <texture id="ui_fake_d" x="1" y="1" w="2" h="2" >ui/ui_common_final</texture>
+	
+    <texture id="ui_checker_t" x="492" y="495" w="16" h="14" >ui/ui_common_final</texture>
+    <texture id="ui_checker_e" x="492" y="479" w="16" h="14" >ui/ui_common_final</texture>	
+    <texture id="ui_checker_d" x="492" y="463" w="16" h="14" >ui/ui_common_final</texture>
+	
+    <texture id="ui_news_frame" x="270" y="0" w="242" h="300" >ui/ui_common_final</texture>
+    <texture id="ui_button_big_back" x="0" y="0" w="270" h="90" >ui/ui_common_final</texture>
+	
+    <texture id="ui_button_big_d" x="0" y="111" w="270" h="45" >ui/ui_common_final</texture>
+    <texture id="ui_button_big_e" x="0" y="201" w="270" h="45" >ui/ui_common_final</texture>
+    <texture id="ui_button_big_h" x="0" y="291" w="270" h="45" >ui/ui_common_final</texture>
+    <texture id="ui_button_big_t" x="0" y="291" w="270" h="45" >ui/ui_common_final</texture>
+	
+    <texture id="ui_button_ordinary_d" x="203" y="361" w="107" h="23" >ui/ui_common_final</texture>
+    <texture id="ui_button_ordinary_e" x="203" y="386" w="107" h="23" >ui/ui_common_final</texture>
+    <texture id="ui_button_ordinary_h" x="203" y="411" w="107" h="23" >ui/ui_common_final</texture>
+	
+    <texture id="ui_button_arrow_up_d" x="1" y="361" w="100" h="19" >ui/ui_common_final</texture>
+    <texture id="ui_button_arrow_up_e" x="1" y="382" w="100" h="19" >ui/ui_common_final</texture>
+    <texture id="ui_button_arrow_up_h" x="1" y="403" w="100" h="19" >ui/ui_common_final</texture>
+	
+    <texture id="ui_button_arrow_down_d" x="102" y="361" w="100" h="19" >ui/ui_common_final</texture>
+    <texture id="ui_button_arrow_down_e" x="102" y="382" w="100" h="19" >ui/ui_common_final</texture>
+    <texture id="ui_button_arrow_down_h" x="102" y="403" w="100" h="19" >ui/ui_common_final</texture>
+	
+    <texture id="ui_frame_02_b" >ui/ui_frame_02_b</texture>
+    <texture id="ui_frame_02_back" >ui/ui_frame_02_back</texture>
+    <texture id="ui_frame_02_l" >ui/ui_frame_02_l</texture>
+    <texture id="ui_frame_02_lb" >ui/ui_frame_02_lb</texture>
+    <texture id="ui_frame_02_lt" >ui/ui_frame_02_lt</texture>
+    <texture id="ui_frame_02_r" >ui/ui_frame_02_r</texture>
+    <texture id="ui_frame_02_rb" >ui/ui_frame_02_rb</texture>
+    <texture id="ui_frame_02_rt" >ui/ui_frame_02_rt</texture>
+    <texture id="ui_frame_02_t" >ui/ui_frame_02_t</texture>
+	
+	
+    <texture id="ui_hud_frame_l" x="0" y="0" w="190" h="70" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_frame_r" x="0" y="70" w="190" h="70" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_frame_back" x="197" y="13" w="147" h="55" >ui/ui_hud_final</texture>
+	
+    <texture id="ui_hud_bar_health" x="352" y="11" w="146" h="21" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_bar_radiation" x="352" y="34" w="146" h="15" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_bar_temp" x="352" y="51" w="70" h="15" >ui/ui_hud_final</texture>
+	
+    <texture id="ui_hud_bar_stamina" x="352" y="83" w="146" h="21" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_bar_oxygen" x="352" y="105" w="146" h="15" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_bar_fatigue_on" x="352" y="124" w="14" h="12" >ui/ui_hud_final</texture>
+    <texture id="ui_hud_bar_fatigue_off" x="371" y="124" w="14" h="12" >ui/ui_hud_final</texture>
+	
+    <texture id="ui_hud_equip_idle" x="412" y="144" w="100" h="100" >ui/ui_hud_final</texture>
+    <!--texture id="ui_hud_equip_active" x="412" y="244" w="100" h="100" >ui/ui_hud_final</texture-->
+	
+    <texture id="ui_action_cancel" x="0" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_mag_in" x="50" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_mag_out" x="100" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_bullet_in" x="150" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_reload" x="200" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_drop" x="250" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_take" x="300" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+    <texture id="ui_action_open_bag" x="350" y="220" w="50" h="50" >ui/ui_hud_final</texture>
+	
+</textures>
