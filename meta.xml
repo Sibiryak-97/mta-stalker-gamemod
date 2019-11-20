@@ -1,0 +1,77 @@
+<meta>
+	<info author="Sibiryak" type="script" version="1.0.0" />
+	<oop>true</oop>
+	<min_mta_version client="1.3.0-9.04431"/>
+	
+	<script src="classes/util/classlib.lua" type="shared" cache="false" />
+	<script src="classes/util/cThread.lua" type="shared" cache="false" />
+	
+	<!-- Файл с переменными -->
+	<script src="g_Variables.lua" type="shared" cache="false" />
+	<script src="c_Variables.lua" type="client" cache="false" />
+	<script src="s_Variables.lua" type="server" />
+	
+	<!-- ui -->
+	<script src="classes/ui/uiBaseElement.lua" type="client" cache="false"/>
+	<script src="classes/ui/uiText.lua" type="client" cache="false"/>
+	<script src="classes/ui/uiImage.lua" type="client" cache="false"/>
+	<script src="classes/ui/uiStatic.lua" type="client" cache="false"/>
+	<script src="classes/ui/uiButton.lua" type="client" cache="false"/>
+	<script src="classes/ui/uiProgressBar.lua" type="client" cache="false"/>
+	<script src="classes/ui/uiFrame.lua" type="client" cache="false"/>
+	
+	<!-- shared -->
+	<script src="classes/cFileManager.lua" type="shared" cache="false"/>
+	<script src="classes/cConfigManager.lua" type="shared" cache="false"/>
+	<script src="classes/item/cInvObject.lua" type="shared" cache="false"/>
+	<script src="classes/item/cWeapon.lua" type="shared" cache="false"/>
+	
+	<!-- client -->
+	<script src="classes/client/cTextureManager.lua" type="client" cache="false"/>
+	<script src="classes/client/cModelManager.lua" type="client" cache="false"/>
+	<script src="classes/client/cActionManager.lua" type="client" cache="false"/>
+	<script src="classes/client/cWeaponManager.lua" type="client" cache="false"/>
+	<script src="classes/client/cHud.lua" type="client" cache="false"/>
+	<script src="classes/client/cLoginPanel.lua" type="client" cache="false"/>
+	<script src="classes/client/cFirstView.lua" type="client" cache="false"/>
+	<script src="classes/client/cClientPlayer.lua" type="client" cache="false"/>
+	
+	<!-- server -->
+	<script src="classes/server/cServerData.lua" type="server" />
+	<script src="classes/server/cServerPlayer.lua" type="server" />
+		
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false"/>	
+	
+	<!-- configs -->
+	<config src="config/items/weapons.xml" type="client" cache="false"/>
+	<config src="config/textures/ui_icon_equipment.xml" type="client" cache="false"/>
+	<config src="config/textures/textures_ui.xml" type="client" cache="false"/>
+	<config src="config/textures/textures_wpn.xml" type="client" cache="false"/>
+	
+	<!-- textures -->
+	<file src="textures/ui/ui_cursor.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_common_final.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_hud_final.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_dialog_screen.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_icon_equipment.dds" type="client" cache="false"/>
+	
+	<file src="textures/ui/ui_frame_02_b.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_back.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_l.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_lb.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_lt.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_r.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_rb.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_rt.dds" type="client" cache="false"/>
+	<file src="textures/ui/ui_frame_02_t.dds" type="client" cache="false"/>
+	
+	<file src="textures/wpn/wpn_ak74_hud.dds" type="client" cache="false"/>
+	
+	
+	<!--file src="meshes/textures.txd" download="false"/>
+		
+	<file src="meshes/wpn_ak74.dff" download="false"/>
+	<file src="meshes/wpn_ak74.col" download="false"/-->
+	
+</meta>
